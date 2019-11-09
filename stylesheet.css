@@ -1,0 +1,96 @@
+/*
+    Developer:  James Horton
+    Date:       03/18/2019
+    Purpose:    Implement a page that simulates a race 
+                between two or more competing players
+
+*/
+
+body {
+    background-image: url("barnyard.png");
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#lettuce {
+    position: absolute;
+    top: 50px;
+    left: 1450px;
+    border: none;
+}
+#letus {
+    border: none;
+}
+
+#tomato {
+    position: absolute;
+    top: 50px;
+    left: 1300px;
+}
+
+#towmater {
+    border: none;
+    
+}
+
+#bunsburger {
+    position: absolute;
+    top: 50px;
+    left: 1600px;
+}
+
+#buns {
+    border: none;
+    
+}
+
+#finish {
+    position: absolute;
+    top: 525px;
+    left: 1400px;
+     /*transform: rotate(90deg); */ 
+}
+
+#fLine {
+    border: none;
+   
+}
+
+#wimpy {
+    position: absolute;
+    top: 525px;
+    left: 1600px;
+}
+
+#wpy {
+    border: none;
+    
+}
+
+img {
+    height: 140px;
+    width: 100px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blanchedalmond;
+}
+
+
+#pig {
+    position: absolute;
+    top: 650px;
+    left: 0px;
+}
+
+#cow {
+    position: absolute;
+    top: 350px;
+    left: 0px;
+}
+
+#start {
+    right: 50%;
+}

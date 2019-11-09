@@ -1,0 +1,57 @@
+<!--
+    Developer:  James Horton
+    Date:       03/18/2019
+    Purpose:    Implement a page that simulates a race 
+                between two or more competing players
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TheGreatRace</title>
+    <link href="stylesheet.css" rel="stylesheet"/>
+</head>
+<body onload="boogityBoogity()">
+    <input type="image" src="redlight.png" id="start" onclick="start()">
+
+    <input type ="image" src="green2light.png" id="start2" onclick="start()">
+
+    <div id="lettuce">
+        <img src="lettuce.png" alt="lettuce" id="letus">
+    </div>
+
+    <div id="tomato">
+        <img src="tomater.png" alt="tomato" id="towmater">
+    </div>
+
+    <div id = "bunsburger">
+        <img src="burger.png" alt="burger" id="buns" />
+    </div>
+
+    <div id="pig">
+        <img src="pig.png" alt="pig" id="bacon" class="racer" />
+        <img src="baconwinner.png" alt="pigwins" id="pigwins" class="racer" onclick="boogityBoogity()" />
+    </div>
+
+    <div id="cow">
+        <img src="cow.png" alt="cow" id="burger" class="racer" />
+        <img src="cowwinner.png" alt="cowwins" id="cowwins" class="racer" onclick="boogityBoogity()" />
+    </div>
+
+    <div id="finish">
+        <img src="finish.png" alt="finish" id="fLine"/>
+    </div>
+
+    <div id = "wimpy">
+        <img src="wimpy.png" alt="wimpy" id="wpy"/>
+    </div>
+
+ 
+
+
+    <script src="main.js"></script>
+</body>
+</html>
